@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
-from time import sleep  
+from time import sleep
 includes_path = "C:/Users/BRAXXMAN/source/repos/includes/"
 os.environ["webdriver.chrome.driver"] = includes_path+"chromedriver.exe"
 
